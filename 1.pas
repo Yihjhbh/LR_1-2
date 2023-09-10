@@ -4,5 +4,5 @@ begin
   writeln ('Введите радиус');
   readln(R);
   S:= sqr(R)*pi;
-  writeln ('Площадь равна ', S);
+  writeln ('Площадь равна ', S:3:2);
 end. 
